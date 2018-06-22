@@ -22,3 +22,9 @@
 * Raise a 404 page when page not exist this is done by exception handling. also this is a shortcut in django using `get_object_or_404` (part3)
 
 * Form in the right way in part3.
+
+* Don't forget urlpatterns in part3.
+
+* ORM and working with data base in part4.
+
+* ‍‍‍‍‍‍‍`annotate` in part4.
