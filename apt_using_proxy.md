@@ -2,8 +2,8 @@
 
 To do this in ubuntu we must go through this way:
 
-1- in `/etc/apt/apt.conf.d/` make a file `proxy.conf`.
-2- in `proxy.conf` add this line 
+1. in `/etc/apt/apt.conf.d/` make a file `proxy.conf`.
+2. in `proxy.conf` add this line 
 `Acquire::http::Proxy "http://username:password@proxy.server:port/";` and this for https:
 `Acquire::https::Proxy "http://username:password@proxy.server:port/";`
 
