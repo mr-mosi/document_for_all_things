@@ -2,7 +2,7 @@
 
 * In the begining have a plan
 
-* When you begin to design models try to try to focus on the 	important bits. The information that you need to start the development.
+* When you begin to design models try to focus on the 	important bits. The information that you need to start the development.
 
 * Drawing a UML at the begining specially for data base helps very much can do this with [StartUML](http://staruml.io/)
 
