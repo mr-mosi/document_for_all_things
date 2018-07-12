@@ -12,4 +12,12 @@
 - we can add several item by using insert instruction with set of item in this way `... .inset([{attr:"value",...}, {attr:"value",...}, ...)`.
 - to show collection items in better way we can use this pretty option in this way `db.collection_name.find().prtty()`.
 - using `db.collection_name.remove({})` to delete the entire collection.
-- using `db.dropDatabase()` to remove the Database. 
+- using `db.dropDatabase()` to remove the Database.
+
+- `db.collectoin_name.create_index([('attribute', pymongo.ASCENDING[or DECENDING])], unique=True)` creates an index for a fild of collection and make it unique that prevent from duplicate adding.
+- `db.collection_name.getIndexes()` index checking.
+
+## Pymongo
+
+- **pymongo** `connection.drop_database('<DBNAME>')` drops database.
+- **pymongo** `db.collection_name.index_infromaiton()` checking index.
