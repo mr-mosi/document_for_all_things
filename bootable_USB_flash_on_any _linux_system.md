@@ -4,7 +4,9 @@
 
 - `sudo dd bs=4M if=<file_location.iso> of=/dev/sdX status=progress && sync` this command make the USB. this take several minutes.
 
-- after complition of copy make the USB default with this commands.
+### After using
+
+- after complition of copy make the USB default as in previous with this commands.
 `sudo wipefs --all /dev/sdX`
 
 `sudo csdisk /dev/sdX` select `dos`. three time press `Enter` and final choose `write` create new partition on the flash.
