@@ -9,9 +9,9 @@
 - after complition of copy make the USB default as in previous with this commands.
 `sudo wipefs --all /dev/sdX`
 
-`sudo csdisk /dev/sdX` select `dos`. three time press `Enter` and final choose `write` create new partition on the flash.
+`sudo cfdisk /dev/sdX` select `dos`. three time press `Enter` and final choose `write` create new partition on the flash.
 
-- To format the partition to FAT use this command.`sudo mkfs.vfat -n 'USB_LABEL' /dev/sdX`. (maybe partition name changes after creation so check it before use the prvious name.)
+- To format the partition to FAT use this command.`sudo mkfs.vfat -n 'USB_LABEL' /dev/sdX`. (maybe partition name changes after creation so check it before use the prvious name. check it with the `lsblk`)
 
 ## Make bootable USB with GUI
 
