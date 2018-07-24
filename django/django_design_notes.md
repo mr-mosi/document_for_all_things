@@ -28,3 +28,10 @@
 * ORM and working with data base in part4.
 
 * ‍‍‍‍‍‍‍`annotate` in part4.
+
+
+## Django Db notes
+some times in developmenting time we want to clear database and make tables again in this time we must clear `db.sqlite3` and all files in `app/migrations` directory and then enter this command in order.
+1- `python manage.py makemigrations`
+2- `python manage.py migrate`
+3- `python manage.py migrate --run-syncdb`
