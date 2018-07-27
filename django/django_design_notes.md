@@ -27,7 +27,7 @@
 
 * ORM and working with data base in part4.
 
-* ‍‍‍‍‍‍‍`annotate` in part4.
+* ‍‍‍‍‍‍‍`annotate` add a column to the table on the fly.
 
 
 ## Django Db notes
@@ -35,3 +35,10 @@ some times in developmenting time we want to clear database and make tables agai
 1- `python manage.py makemigrations`
 2- `python manage.py migrate`
 3- `python manage.py migrate --run-syncdb`
+
+### Using __str__() in form of return multiple values:
+
+```
+    def __str__(self):
+        return "%s-%s" % (self.classroom.name, self.student.user.username)
+```
