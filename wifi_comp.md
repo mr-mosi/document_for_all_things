@@ -35,3 +35,7 @@
 - example of using **reaver** ‍‍‍‍‍`reaver -i wlan0mon -b 08:86:30:74:22:76 -vv`
 
 - changing channel of my wireless card. `iwconfig wlan0mon channel [1-14]`-
+
+## mdk3
+
+- `mdk3 wlan0mon 
