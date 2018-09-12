@@ -8,7 +8,9 @@
 	- for example: `docker container run --interactive --tty --rm ubuntu bash`<br>
 		`--interactive` and `--tty` for run container in interactive way. and `--rm` remove container after it stoped.
 3. **In the background**: For long-running services like websites and databases.
-	- for example: ```docker container run \
+	- for example: 
+					```
+					docker container run \
  					--detach \
  					--name mydb \
  					-e MYSQL_ROOT_PASSWORD=my-secret-pw \
@@ -30,7 +32,8 @@ However, Linux containers require the Docker host to be running a Linux kernel. 
 **Basic Docker File**
 A simple docker file: 
 
-```FROM nginx:latest
+```
+FROM nginx:latest
 
 COPY index.html /usr/share/nginx/html
 COPY linux.png /usr/share/nginx/html
