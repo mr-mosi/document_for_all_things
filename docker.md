@@ -18,9 +18,9 @@ docker container run \
 	mysql:latest
 ```
 
-	- `--detach` will run the container in the background.
-	- `--name` will name it mydb.
-	- `-e` will use an environment variable to specify the root password (NOTE: This should never be done in production).
+- `--detach` will run the container in the background.
+- `--name` will name it mydb.
+- `-e` will use an environment variable to specify the root password (NOTE: This should never be done in production).
 
 **Useful command**: `cat /etc/issue` will show which Linux distro is running.
 
