@@ -7,15 +7,17 @@
 2. **Interactively**: This connects you to the container similar to the way you SSH into a remote server.<br>
 	- for example: `docker container run --interactive --tty --rm ubuntu bash`<br>
 		`--interactive` and `--tty` for run container in interactive way. and `--rm` remove container after it stoped.
-3. **In the background**: For long-running services like websites and databases.
-	for example: 
-					```
-					docker container run \
- 					--detach \
- 					--name mydb \
- 					-e MYSQL_ROOT_PASSWORD=my-secret-pw \
- 					mysql:latest
-					```
+3. **In the background**: For long-running services like websites and databases. <br>
+for example: 
+
+```
+docker container run \
+	--detach \
+	--name mydb \
+	-e MYSQL_ROOT_PASSWORD=my-secret-pw \
+	mysql:latest
+```
+
 	- `--detach` will run the container in the background.
 	- `--name` will name it mydb.
 	- `-e` will use an environment variable to specify the root password (NOTE: This should never be done in production).
