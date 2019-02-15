@@ -63,6 +63,7 @@ Be sure to include period (`.`) at the end of the command.
 - use the `docker container rm --force linux_tweet_app` command to stop and remove a container.
 - use the `--force` parameter to remove the running container without shutting it down.
 - use the `docker container stop` to stop the container gracefully and then remove it with this `docker container rm`.
+- using following command to delete all stoped containers: `docker container prune`
 
 **Bind Mount**
 - When we use a bind mount, a file or directory on the host machine is mounted into a container running on the same host.
